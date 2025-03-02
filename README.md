@@ -10,17 +10,18 @@
 3. Запись данных и инцидентов в БД.
 
 ## Запуск проекта
+### Сборка и запуск контейнеров
 ```bash
-# Сборка и запуск контейнеров
 docker-compose up --build -d
 ```
 
 ## Переменные окружения
 ```env
-MYSQL_DATABASE=monitoring
-MYSQL_USER=user
-MYSQL_PASSWORD=password
-MYSQL_ROOT_PASSWORD=root_password
+DB_NAME=monitoring
+DB_USER=user
+DB_PASSWORD=password
+DB_HOST=HOST
+DB_PORT=PORT
 ```
 
 ## API
